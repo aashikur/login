@@ -61,6 +61,7 @@ if(!$mail->send()){
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-4 mt-5 bg-light rounded">
+        <h1 class="text-center font-weight-bold text-primary">Contact Us (if you like)</h1>
         <hr class="bg-light">
         <h5 class="text-center text-success"><?= $result; ?></h5><!--|||||||||||||||||||||||__-->
         <form action="" method="post" id="form-box" class="p-2">
